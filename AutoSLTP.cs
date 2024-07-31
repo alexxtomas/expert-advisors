@@ -20,7 +20,7 @@ void SetSLTPForOpenOrders()
 
     for (int i = PositionsTotal() - 1; i >= 0; i--)
     {
-        if (PositionSelectByIndex(i))
+        if (PositionSelect(PositionGetTicket(i)))
         {
             if (PositionGetString(POSITION_SYMBOL) == Symbol())
             {
@@ -38,14 +38,14 @@ void SetSLTPForOpenOrders()
                 {
                     if (sl <= 0 || tp <= 0)
                     {
-                        trade.PositionModify(ticket, open_price - sl_points * Point, open_price + tp_points * Point);
+                        trade.PositionModify(ticket, open_price - sl_points * SymbolInfoDouble(Symbol(), SYMBOL_POINT), open_price + tp_points * SymbolInfoDouble(Symbol(), SYMBOL_POINT));
                     }
                 }
                 else if (PositionGetInteger(POSITION_TYPE) == POSITION_TYPE_SELL)
                 {
                     if (sl <= 0 || tp <= 0)
                     {
-                        trade.PositionModify(ticket, open_price + sl_points * Point, open_price - tp_points * Point);
+                        trade.PositionModify(ticket, open_price + sl_points * SymbolInfoDouble(Symbol(), SYMBOL_POINT), open_price - tp_points * SymbolInfoDouble(Symbol(), SYMBOL_POINT));
                     }
                 }
             }
