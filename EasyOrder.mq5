@@ -36,16 +36,6 @@ void CalculateOrderInfo(double stopLossPercentage, double initialAccountBalance)
     double riskAmount = initialAccountBalance * stopLossPercentage / 100.0;
     double stopLossPerShare = riskAmount / volume; 
     stopLossPrice = TruncateToTwoDecimals(assetPrice - stopLossPerShare);
-    
-
-   
-   Print("assetPrice ", assetPrice);
-   Print("volume ", volume);
-   Print("risk amount ", riskAmount);
-   Print("positionAmount ", positionAmount);
-   Print("stopLossPerShare ", stopLossPerShare);
-   Print("stopLossPrice ", stopLossPrice);
-   
 }
 
 void OnInit() {
