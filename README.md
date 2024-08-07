@@ -1,5 +1,3 @@
-# EasyOrder EA for Metatrader 5
-
 
 ## How to it works
 
