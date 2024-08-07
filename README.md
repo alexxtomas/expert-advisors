@@ -27,4 +27,4 @@ This EA displays a Place Order button on the chart. When you click the button, t
 15. Click on OK
 16. The EA is ready! Now you will see a Place Order button on the chart
 
-![Watch the video tutorial](https://raw.githubusercontent.com/alexxtomas/expert-advisors/main/tutorial.mp4)](https://raw.githubusercontent.com/alexxtomas/expert-advisors/main/tutorial.mp4)
+here is a step-by-step video on how to use it (https://raw.githubusercontent.com/alexxtomas/expert-advisors/main/tutorial.mp4)
