@@ -1,5 +1,3 @@
-// Show a button on the cart to place an order at market price calculating the lot size and the stop loss based on the account balance and the stop loss percentage
-
 #include <Trade\Trade.mqh>
 
 input double StopLossPercentage = 0.5; // Stop Loss percentage (0,5% by default)
@@ -67,7 +65,7 @@ void CreateButton(int x, int y, int width, int height, string label) {
     ObjectSetInteger(0, label, OBJPROP_XDISTANCE, x);
     ObjectSetInteger(0, label, OBJPROP_YDISTANCE, y);
     ObjectSetInteger(0, label, OBJPROP_COLOR, clrWhite);
-     ObjectSetInteger(0, label,OBJPROP_BGCOLOR , clrCoral);
+     ObjectSetInteger(0, label,OBJPROP_BGCOLOR , clrGreen);
     
     ObjectSetInteger(0, label, OBJPROP_HIDDEN, false);
     ObjectSetString(0, label, OBJPROP_TEXT, label);
