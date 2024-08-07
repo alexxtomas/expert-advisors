@@ -26,3 +26,5 @@ This EA displays a Place Order button on the chart. When you click the button, t
 14. In the Inputs tab you can set the initial balance and the stop loss percentage
 15. Click on OK
 16. The EA is ready! Now you will see a Place Order button on the chart
+
+![Watch the video tutorial](https://raw.githubusercontent.com/alexxtomas/expert-advisors/main/tutorial.mp4)](https://raw.githubusercontent.com/alexxtomas/expert-advisors/main/tutorial.mp4)
