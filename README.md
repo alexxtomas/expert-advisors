@@ -9,7 +9,7 @@ This EA displays a Place Order button on the chart. When you click the button, t
 - Stop Loss: Based on the stop loss percentage set in the EA input it will calculate the stop loss price. The stop loss is calculated based on the initial balance so if the initial balance is 1000 and the stop loss percentage is 0,5%, then the maximum loss that we can have is 5. So, if the price of the stock is 10, the stop loss price will be 9,5.
 
 ## How to use it
-
+There is a step by step video in this repository called `tutorial.mp4` anyway here is a short summary. 
 1. Copy the code from the file `EasyOrder.mq5`
 2. Open Metatrader 5
 3. Go to Tools -> MetaQuotes Language Editor
@@ -27,4 +27,6 @@ This EA displays a Place Order button on the chart. When you click the button, t
 15. Click on OK
 16. The EA is ready! Now you will see a Place Order button on the chart
 
-[Here is a step-by-step video on how to use it] (https://raw.githubusercontent.com/alexxtomas/expert-advisors/main/tutorial.mp4)
+
+
+
